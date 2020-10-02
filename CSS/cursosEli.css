@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background: url(../img/geometric-leaves.png);
+  font-family: 'Kalam', cursive;
+  font-size: 17px;
+}
+h1 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    display: inline-block;
+    font-size: 65px;
+}
+.titulo{
+    overflow: hidden;   
+}
+.titulo img {
+    display: block;
+    margin: 0 auto;
+}
+.titulo h1 {
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+nav {
+    font-size: 35px;
+    background-color: #FD8772;
+    overflow: hidden;
+    scroll-behavior: auto;
+}
+nav ul {
+    list-style: none;
+    position: relative;
+    margin: 25px auto;
+    left: 100px;
+}
+nav ul li {
+    float: left;
+    margin: 20px;
+}
+ul > a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.btn {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.btn:hover {
+    text-decoration: underline;
+    background-color: #FEC89A;
+}
+.curso {
+    width: 1000px;
+    height: 650px;
+    background-color: #F8EDEB;
+    margin: 20px auto; 
+
+    border: 9px solid #F9A662;
+    border-radius: 6px;
+    padding: 30px;
+} 
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+.imagen img {
+    display: block;
+    margin: 0 auto;
+}
+.curso input[type="button"]{
+    width: 200px;
+    margin: 0 auto;
+    background: none;
+    border: 4px solid #FA9A4C;
+    color: #ecb469;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+
+    font-size: 16px;
+}
+.curso input[type="button"]:hover{
+    background-color: #FCD5CE;
+    color: #fff;
+}
+footer {
+    background-color: #FEC89A;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    /* margin: 10px; */
+    padding: 5px;
+}
+
